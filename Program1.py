@@ -10,5 +10,3 @@ with open("Bingo.txt", "w") as myfile:
 
 lst = list(dict.fromkeys(lst))
 
-with open("Bingo.txt", "r") as Book:
-    print(lst)
