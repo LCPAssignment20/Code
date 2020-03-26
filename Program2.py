@@ -1,6 +1,12 @@
 import Program1
 import random
 
+Brandlist = []
+
 for x in range(0, 25):
     with open("Bingo.txt", "r") as radm:
-        print(random.choice(Program1.lst))
+        Randbrand = random.choice(Program1.lst)
+        print(Randbrand)
+        Brandlist.append(Randbrand)
+
+print(Brandlist)
