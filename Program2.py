@@ -2,5 +2,5 @@ import Program1
 import random
 
 for x in range(0, 25):
-    with open("Bingo.txt", "r") as Hi:
+    with open("Bingo.txt", "r") as radm:
         print(random.choice(Program1.lst))
